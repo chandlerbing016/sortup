@@ -1048,14 +1048,17 @@ window.Vue = __webpack_require__(35);
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+var app = new Vue({
+  el: "#app"
+});
+
+console.log("Does this work");
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue'));
+// 
 
+
+// We're not going to use system wide vuejs setup, it's gonna be on every component
 // const app = new Vue({
 //     el: '#app'
 // });
