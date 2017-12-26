@@ -17625,3 +17625,7 @@ label.panel-block:hover {
   padding-right: 100px !important;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
